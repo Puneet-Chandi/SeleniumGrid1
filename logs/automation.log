@@ -1,0 +1,185 @@
+11:21:31.921 [main] INFO  112ogger - [TestNG] Running:
+  C:\Users\Punee\eclipse-workspace2025new\TestNgEcommShop\base.xml
+
+11:21:34.737 [main] INFO  97ogger - Application is launched successfully
+11:21:45.228 [main] INFO  104ogger - Browser is closed
+11:21:47.661 [main] INFO  97ogger - Application is launched successfully
+11:21:54.855 [main] INFO  104ogger - Browser is closed
+11:21:58.923 [main] INFO  97ogger - Application is launched successfully
+11:22:01.141 [main] INFO  26ogger - ENTER ACCOUNT INFORMATION is Displaying
+11:22:01.435 [main] INFO  29ogger - keMynhsSTN is matching with keMynhsSTN
+11:22:01.475 [main] INFO  32ogger - Ugr6aRKiwWpf6uI@Test.com is matching with Ugr6aRKiwWpf6uI@Test.com
+11:22:01.728 [main] INFO  104ogger - Browser is closed
+11:22:02.939 [main] INFO  51ogger - This is logger
+11:22:56.324 [main] INFO  112ogger - [TestNG] Running:
+  C:\Users\Punee\eclipse-workspace2025new\TestNgEcommShop\base.xml
+
+11:22:59.380 [main] INFO  97ogger - Application is launched successfully
+11:23:03.348 [main] INFO  34ogger - Logged in as EWGKhjeZEC
+11:23:05.301 [main] INFO  55ogger - running invalid
+11:23:15.805 [main] INFO  61ogger - Login failed - Invalid username or password
+11:23:17.868 [main] INFO  85ogger - running invalid
+11:23:27.943 [main] INFO  91ogger - Login failed - Invalid username or password
+11:23:28.241 [main] INFO  104ogger - Browser is closed
+11:25:00.576 [main] INFO  112ogger - [TestNG] Running:
+  C:\Users\Punee\eclipse-workspace2025new\TestNgEcommShop\base.xml
+
+11:25:04.821 [main] INFO  97ogger - Application is launched successfully
+11:25:38.988 [main] INFO  104ogger - Browser is closed
+11:25:47.273 [main] INFO  112ogger - [TestNG] Running:
+  C:\Users\Punee\eclipse-workspace2025new\TestNgEcommShop\base.xml
+
+11:25:51.401 [main] INFO  97ogger - Application is launched successfully
+11:26:02.445 [main] INFO  34ogger - Logged in as EWGKhjeZEC
+11:26:04.481 [main] INFO  55ogger - running invalid
+11:26:14.909 [main] INFO  61ogger - Login failed - Invalid username or password
+11:26:16.476 [main] INFO  85ogger - running invalid
+11:26:26.588 [main] INFO  91ogger - Login failed - Invalid username or password
+11:26:26.858 [main] INFO  104ogger - Browser is closed
+11:27:24.355 [main] INFO  112ogger - [TestNG] Running:
+  C:\Users\Punee\eclipse-workspace2025new\TestNgEcommShop\base.xml
+
+11:32:32.783 [main] INFO  112ogger - [TestNG] Running:
+  C:\Users\Punee\eclipse-workspace2025new\TestNgEcommShop\base.xml
+
+11:34:05.185 [main] INFO  112ogger - [TestNG] Running:
+  C:\Users\Punee\eclipse-workspace2025new\TestNgEcommShop\base.xml
+
+11:34:13.074 [main] INFO  97ogger - Application is launched successfully
+11:34:17.996 [main] INFO  34ogger - Logged in as EWGKhjeZEC
+11:34:21.728 [main] INFO  55ogger - running invalid
+11:34:31.833 [main] INFO  61ogger - Login failed - Invalid username or password
+11:34:33.979 [main] INFO  85ogger - running invalid
+11:34:44.070 [main] INFO  91ogger - Login failed - Invalid username or password
+11:34:44.968 [main] INFO  104ogger - Browser is closed
+11:38:28.072 [main] INFO  112ogger - [TestNG] Running:
+  C:\Users\Punee\eclipse-workspace2025new\TestNgEcommShop\base.xml
+
+11:38:34.686 [main] INFO  97ogger - Application is launched successfully
+11:38:39.008 [main] INFO  34ogger - Logged in as EWGKhjeZEC
+11:38:42.505 [main] INFO  55ogger - running invalid
+11:38:52.622 [main] INFO  61ogger - Login failed - Invalid username or password
+11:38:55.694 [main] INFO  86ogger - running invalid
+11:39:05.746 [main] INFO  92ogger - Login failed - Invalid username or password
+11:39:06.626 [main] INFO  104ogger - Browser is closed
+11:40:56.822 [main] INFO  112ogger - [TestNG] Running:
+  C:\Users\Punee\eclipse-workspace2025new\TestNgEcommShop\base.xml
+
+11:41:20.933 [main] INFO  112ogger - [TestNG] Running:
+  C:\Users\Punee\eclipse-workspace2025new\TestNgEcommShop\base.xml
+
+11:41:26.271 [main] INFO  97ogger - Application is launched successfully
+11:41:31.550 [main] INFO  34ogger - Logged in as EWGKhjeZEC
+11:41:36.198 [main] INFO  55ogger - running invalid
+11:41:46.293 [main] INFO  61ogger - Login failed - Invalid username or password
+11:41:49.455 [main] INFO  86ogger - running invalid
+11:41:59.556 [main] INFO  92ogger - Login failed - Invalid username or password
+11:42:00.301 [main] INFO  104ogger - Browser is closed
+11:42:34.011 [main] INFO  112ogger - [TestNG] Running:
+  C:\Users\Punee\eclipse-workspace2025new\TestNgEcommShop\base.xml
+
+11:42:39.441 [main] INFO  97ogger - Application is launched successfully
+11:42:43.613 [main] INFO  34ogger - Logged in as EWGKhjeZEC
+11:42:47.988 [main] INFO  55ogger - running invalid
+11:42:58.102 [main] INFO  61ogger - Login failed - Invalid username or password
+11:43:00.668 [main] INFO  86ogger - running invalid
+11:43:10.772 [main] INFO  92ogger - Login failed - Invalid username or password
+11:43:11.605 [main] INFO  104ogger - Browser is closed
+11:43:15.995 [main] INFO  97ogger - Application is launched successfully
+11:43:22.653 [main] INFO  104ogger - Browser is closed
+11:43:27.618 [main] INFO  97ogger - Application is launched successfully
+11:43:31.422 [main] INFO  26ogger - ENTER ACCOUNT INFORMATION is Displaying
+11:43:31.498 [main] INFO  29ogger - yeMqoSiDQd is matching with yeMqoSiDQd
+11:43:31.568 [main] INFO  32ogger - tvb7cU0SeH2NkrC@Test.com is matching with tvb7cU0SeH2NkrC@Test.com
+11:43:32.551 [main] INFO  104ogger - Browser is closed
+12:09:26.954 [main] INFO  112ogger - [TestNG] Running:
+  C:\Users\Punee\eclipse-workspace2025new\TestNgEcommShop\base.xml
+
+12:09:45.772 [main] INFO  97ogger - Application is launched successfully
+12:09:54.916 [main] INFO  34ogger - Logged in as EWGKhjeZEC
+12:10:00.848 [main] INFO  55ogger - running invalid
+12:10:10.985 [main] INFO  61ogger - Login failed - Invalid username or password
+12:10:13.489 [main] INFO  86ogger - running invalid
+12:10:23.580 [main] INFO  92ogger - Login failed - Invalid username or password
+12:10:24.492 [main] INFO  104ogger - Browser is closed
+12:10:29.827 [main] INFO  97ogger - Application is launched successfully
+12:10:36.624 [main] INFO  104ogger - Browser is closed
+12:10:40.947 [main] INFO  97ogger - Application is launched successfully
+12:10:45.329 [main] INFO  26ogger - ENTER ACCOUNT INFORMATION is Displaying
+12:10:45.466 [main] INFO  29ogger - IHGNoILFSJ is matching with IHGNoILFSJ
+12:10:45.631 [main] INFO  32ogger - DEW6gypzbUyYgy2@Test.com is matching with DEW6gypzbUyYgy2@Test.com
+12:10:49.527 [main] INFO  104ogger - Browser is closed
+12:12:09.277 [main] INFO  112ogger - [TestNG] Running:
+  C:\Users\Punee\eclipse-workspace2025new\TestNgEcommShop\base.xml
+
+12:12:15.182 [main] INFO  97ogger - Application is launched successfully
+12:12:21.732 [main] INFO  34ogger - Logged in as EWGKhjeZEC
+12:12:25.361 [main] INFO  55ogger - running invalid
+12:12:37.562 [main] INFO  61ogger - Login failed - Invalid username or password
+12:12:39.950 [main] INFO  86ogger - running invalid
+12:12:50.046 [main] INFO  92ogger - Login failed - Invalid username or password
+12:12:51.234 [main] INFO  104ogger - Browser is closed
+12:12:54.178 [main] INFO  97ogger - Application is launched successfully
+12:12:58.939 [main] INFO  104ogger - Browser is closed
+12:13:01.034 [main] INFO  97ogger - Application is launched successfully
+12:13:05.393 [main] INFO  26ogger - ENTER ACCOUNT INFORMATION is Displaying
+12:13:05.868 [main] INFO  29ogger - dwjDhlYawa is matching with dwjDhlYawa
+12:13:06.093 [main] INFO  32ogger - SFO9AfuHi0n32il@Test.com is matching with SFO9AfuHi0n32il@Test.com
+12:13:07.265 [main] INFO  104ogger - Browser is closed
+12:17:59.859 [main] INFO  112ogger - [TestNG] Running:
+  C:\Users\Punee\eclipse-workspace2025new\TestNgEcommShop\linux.xml
+
+12:18:03.502 [TestNG-tests-1] INFO  97ogger - Application is launched successfully
+12:18:10.781 [TestNG-tests-1] INFO  34ogger - Logged in as EWGKhjeZEC
+12:18:15.808 [TestNG-tests-2] INFO  97ogger - Application is launched successfully
+12:18:18.628 [TestNG-tests-1] INFO  55ogger - running invalid
+12:19:02.460 [TestNG-tests-1] INFO  104ogger - Browser is closed
+12:19:02.540 [TestNG-tests-2] INFO  104ogger - Browser is closed
+12:19:07.839 [TestNG-tests-2] INFO  97ogger - Application is launched successfully
+12:19:14.804 [TestNG-tests-2] INFO  104ogger - Browser is closed
+12:19:19.958 [TestNG-tests-2] INFO  97ogger - Application is launched successfully
+12:19:24.136 [TestNG-tests-2] INFO  26ogger - ENTER ACCOUNT INFORMATION is Displaying
+12:19:24.214 [TestNG-tests-2] INFO  29ogger - geXBfdAOku is matching with geXBfdAOku
+12:19:24.311 [TestNG-tests-2] INFO  32ogger - 3OmNxMu489UZS8Q@Test.com is matching with 3OmNxMu489UZS8Q@Test.com
+12:19:27.464 [TestNG-tests-2] INFO  104ogger - Browser is closed
+12:23:35.383 [TestNG-tests-1] INFO  97ogger - Application is launched successfully
+12:23:40.702 [TestNG-tests-1] INFO  26ogger - ENTER ACCOUNT INFORMATION is Displaying
+12:23:40.804 [TestNG-tests-1] INFO  29ogger - NbeoGBKWRV is matching with NbeoGBKWRV
+12:23:40.896 [TestNG-tests-1] INFO  32ogger - tApjFDTT4USCPaG@Test.com is matching with tApjFDTT4USCPaG@Test.com
+12:23:42.046 [TestNG-tests-1] INFO  104ogger - Browser is closed
+12:51:02.172 [main] INFO  112ogger - [TestNG] Running:
+  C:\Users\Punee\eclipse-workspace2025new\SeleniumGrid1\base.xml
+
+12:51:07.435 [main] INFO  97ogger - Application is launched successfully
+12:51:10.595 [main] INFO  34ogger - Logged in as EWGKhjeZEC
+12:51:13.391 [main] INFO  55ogger - running invalid
+12:51:23.478 [main] INFO  61ogger - Login failed - Invalid username or password
+12:51:24.954 [main] INFO  86ogger - running invalid
+12:51:35.078 [main] INFO  92ogger - Login failed - Invalid username or password
+12:51:36.413 [main] INFO  104ogger - Browser is closed
+12:51:39.811 [main] INFO  97ogger - Application is launched successfully
+12:51:43.742 [main] INFO  104ogger - Browser is closed
+12:52:53.974 [main] INFO  112ogger - [TestNG] Running:
+  C:\Users\Punee\eclipse-workspace2025new\SeleniumGrid1\base.xml
+
+12:53:55.001 [main] INFO  112ogger - [TestNG] Running:
+  C:\Users\Punee\eclipse-workspace2025new\SeleniumGrid1\base.xml
+
+12:55:12.404 [main] INFO  112ogger - [TestNG] Running:
+  C:\Users\Punee\eclipse-workspace2025new\SeleniumGrid1\base.xml
+
+12:56:49.386 [main] INFO  112ogger - [TestNG] Running:
+  C:\Users\Punee\eclipse-workspace2025new\SeleniumGrid1\linux.xml
+
+12:56:55.339 [TestNG-tests-1] INFO  97ogger - Application is launched successfully
+12:57:08.875 [TestNG-tests-2] INFO  97ogger - Application is launched successfully
+12:57:16.108 [TestNG-tests-2] INFO  55ogger - running invalid
+12:57:27.298 [TestNG-tests-1] INFO  104ogger - Browser is closed
+12:57:27.302 [TestNG-tests-2] INFO  104ogger - Browser is closed
+12:57:33.112 [TestNG-tests-2] INFO  97ogger - Application is launched successfully
+12:57:40.460 [TestNG-tests-2] INFO  104ogger - Browser is closed
+12:57:45.141 [TestNG-tests-2] INFO  97ogger - Application is launched successfully
+12:57:49.366 [TestNG-tests-2] INFO  26ogger - ENTER ACCOUNT INFORMATION is Displaying
+12:57:49.533 [TestNG-tests-2] INFO  29ogger - yfUBWQlQgV is matching with yfUBWQlQgV
+12:57:49.697 [TestNG-tests-2] INFO  32ogger - zE4coNZifoAiOvj@Test.com is matching with zE4coNZifoAiOvj@Test.com
+12:57:52.900 [TestNG-tests-2] INFO  104ogger - Browser is closed
