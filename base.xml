@@ -22,7 +22,7 @@ add unwanted here
   <test thread-count="5" name="BaseTest">
   
   <parameter name="os" value="windows"/>
-  <parameter name= "browser" value="firefox"/>
+  <parameter name= "browser" value="chrome"/>
    
     <classes>
       <class name="testCases.T001_LoginTest"/>

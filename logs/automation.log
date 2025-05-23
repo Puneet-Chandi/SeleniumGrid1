@@ -183,3 +183,29 @@
 12:57:49.533 [TestNG-tests-2] INFO  29ogger - yfUBWQlQgV is matching with yfUBWQlQgV
 12:57:49.697 [TestNG-tests-2] INFO  32ogger - zE4coNZifoAiOvj@Test.com is matching with zE4coNZifoAiOvj@Test.com
 12:57:52.900 [TestNG-tests-2] INFO  104ogger - Browser is closed
+13:16:51.509 [TestNG-tests-1] INFO  97ogger - Application is launched successfully
+13:16:55.442 [TestNG-tests-1] INFO  34ogger - Logged in as EWGKhjeZEC
+13:16:58.769 [TestNG-tests-2] INFO  97ogger - Application is launched successfully
+13:17:08.399 [TestNG-tests-1] INFO  104ogger - Browser is closed
+13:17:08.405 [TestNG-tests-2] INFO  104ogger - Browser is closed
+13:17:14.958 [TestNG-tests-1] INFO  97ogger - Application is launched successfully
+13:17:14.959 [TestNG-tests-2] INFO  97ogger - Application is launched successfully
+13:17:17.615 [TestNG-tests-1] INFO  104ogger - Browser is closed
+13:17:24.221 [TestNG-tests-1] INFO  97ogger - Application is launched successfully
+13:17:24.222 [TestNG-tests-2] INFO  97ogger - Application is launched successfully
+13:17:27.225 [TestNG-tests-2] INFO  104ogger - Browser is closed
+13:17:27.225 [TestNG-tests-1] INFO  104ogger - Browser is closed
+14:22:44.236 [main] INFO  97ogger - Application is launched successfully
+14:22:52.533 [main] INFO  34ogger - Logged in as EWGKhjeZEC
+14:22:57.623 [main] INFO  55ogger - running invalid
+14:23:07.725 [main] INFO  61ogger - Login failed - Invalid username or password
+14:23:10.715 [main] INFO  86ogger - running invalid
+14:23:20.790 [main] INFO  92ogger - Login failed - Invalid username or password
+14:23:22.763 [main] INFO  104ogger - Browser is closed
+14:23:30.699 [main] INFO  97ogger - Application is launched successfully
+14:23:38.720 [main] INFO  104ogger - Browser is closed
+14:23:46.081 [main] INFO  97ogger - Application is launched successfully
+14:23:50.225 [main] INFO  26ogger - ENTER ACCOUNT INFORMATION is Displaying
+14:23:50.295 [main] INFO  29ogger - dnlDtIpdPz is matching with dnlDtIpdPz
+14:23:50.341 [main] INFO  32ogger - f6h7YNb741JUtFu@Test.com is matching with f6h7YNb741JUtFu@Test.com
+14:23:53.960 [main] INFO  104ogger - Browser is closed
