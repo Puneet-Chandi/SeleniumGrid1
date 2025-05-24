@@ -209,3 +209,27 @@
 14:23:50.295 [main] INFO  29ogger - dnlDtIpdPz is matching with dnlDtIpdPz
 14:23:50.341 [main] INFO  32ogger - f6h7YNb741JUtFu@Test.com is matching with f6h7YNb741JUtFu@Test.com
 14:23:53.960 [main] INFO  104ogger - Browser is closed
+16:56:00.966 [main] INFO  112ogger - [TestNG] Running:
+  C:\Users\Punee\eclipse-workspace2025new\SeleniumGrid1\base.xml
+
+16:56:05.553 [main] INFO  97ogger - Application is launched successfully
+16:56:36.994 [main] INFO  104ogger - Browser is closed
+16:56:39.883 [main] INFO  97ogger - Application is launched successfully
+16:56:43.493 [main] INFO  104ogger - Browser is closed
+16:56:56.125 [main] INFO  112ogger - [TestNG] Running:
+  C:\Users\Punee\eclipse-workspace2025new\SeleniumGrid1\base.xml
+
+16:57:00.017 [main] INFO  97ogger - Application is launched successfully
+16:57:05.877 [main] INFO  34ogger - Logged in as EWGKhjeZEC
+16:57:14.204 [main] INFO  55ogger - running invalid
+16:57:24.318 [main] INFO  61ogger - Login failed - Invalid username or password
+16:57:25.866 [main] INFO  86ogger - running invalid
+16:57:36.549 [main] INFO  92ogger - Login failed - Invalid username or password
+16:57:37.077 [main] INFO  104ogger - Browser is closed
+16:57:39.963 [main] INFO  97ogger - Application is launched successfully
+16:57:43.558 [main] INFO  104ogger - Browser is closed
+16:57:46.388 [main] INFO  97ogger - Application is launched successfully
+16:57:50.011 [main] INFO  26ogger - ENTER ACCOUNT INFORMATION is Displaying
+16:57:50.091 [main] INFO  29ogger - BaDLVlXotc is matching with BaDLVlXotc
+16:57:50.165 [main] INFO  32ogger - Yy36jhB70qNjoUy@Test.com is matching with Yy36jhB70qNjoUy@Test.com
+16:57:50.412 [main] INFO  104ogger - Browser is closed

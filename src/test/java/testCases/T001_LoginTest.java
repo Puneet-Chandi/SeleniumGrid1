@@ -28,7 +28,7 @@ public class T001_LoginTest extends BaseClass {
 			{
 				if(slp.getMsgInvalidEmailPassword().isDisplayed())
 				logger.info("Login failed - Invalid username or password");	
-				Assert.fail();
+				Assert.fail("UnknownError");
 			}
 			Assert.assertEquals(lp.getLoggedUserInfo(), "Logged in as EWGKhjeZEC", "Logged user not matching");
 			logger.info(lp.getLoggedUserInfo());	
@@ -60,7 +60,7 @@ public class T001_LoginTest extends BaseClass {
 				if(slp.getMsgInvalidEmailPassword().isDisplayed())
 				logger.info("Login failed - Invalid username or password");	
 				Reporter.log("Login failed - Invalid password");
-				Assert.fail();
+				Assert.fail("Invalid Password");  
 			}
 			Assert.assertEquals(lp.getLoggedUserInfo(), "Logged in as EWGKhjeZEC", "Logged user not matching");
 			logger.info(lp.getLoggedUserInfo());	
@@ -91,7 +91,7 @@ public class T001_LoginTest extends BaseClass {
 				if(slp.getMsgInvalidEmailPassword().isDisplayed())
 				logger.info("Login failed - Invalid username or password");	
 				Reporter.log("Login failed - Invalid Email");
-				Assert.fail();
+				Assert.fail("Invalid Email");
 			}
 			Assert.assertEquals(lp.getLoggedUserInfo(), "Logged in as EWGKhjeZEC", "Logged user not matching");
 			logger.info(lp.getLoggedUserInfo());	

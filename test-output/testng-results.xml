@@ -1,471 +1,194 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="8" failed="0" skipped="2">
+<testng-results ignored="0" total="5" passed="3" failed="2" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Login failed - Invalid password]]>
+    </line>
+    <line>
+      <![CDATA[Login failed - Invalid Email]]>
+    </line>
   </reporter-output>
-  <suite started-at="2025-05-23T12:56:49 MST" name="Suite" finished-at="2025-05-23T13:01:49 MST" duration-ms="300268">
+  <suite started-at="2025-05-23T16:56:56 MST" name="Suite" finished-at="2025-05-23T16:57:50 MST" duration-ms="54276">
     <groups>
       <group name="smoke">
         <method signature="T001_LoginTest.verifyLogin1()[pri:0, instance:testCases.T001_LoginTest@6995bf68]" name="verifyLogin1" class="testCases.T001_LoginTest"/>
         <method signature="T001_LoginTest.verifyLogin2()[pri:0, instance:testCases.T001_LoginTest@6995bf68]" name="verifyLogin2" class="testCases.T001_LoginTest"/>
         <method signature="T001_LoginTest.verifyLogin3()[pri:0, instance:testCases.T001_LoginTest@6995bf68]" name="verifyLogin3" class="testCases.T001_LoginTest"/>
         <method signature="T003_SignupUITest.verifySignupPageUI()[pri:0, instance:testCases.T003_SignupUITest@294a6b8e]" name="verifySignupPageUI" class="testCases.T003_SignupUITest"/>
-        <method signature="T001_LoginTest.verifyLogin1()[pri:0, instance:testCases.T001_LoginTest@22bac7bc]" name="verifyLogin1" class="testCases.T001_LoginTest"/>
-        <method signature="T001_LoginTest.verifyLogin2()[pri:0, instance:testCases.T001_LoginTest@22bac7bc]" name="verifyLogin2" class="testCases.T001_LoginTest"/>
-        <method signature="T001_LoginTest.verifyLogin3()[pri:0, instance:testCases.T001_LoginTest@22bac7bc]" name="verifyLogin3" class="testCases.T001_LoginTest"/>
-        <method signature="T003_SignupUITest.verifySignupPageUI()[pri:0, instance:testCases.T003_SignupUITest@4612b856]" name="verifySignupPageUI" class="testCases.T003_SignupUITest"/>
       </group> <!-- smoke -->
       <group name="sanity">
         <method signature="T002_SignupLoginUITest.verifyUI()[pri:0, instance:testCases.T002_SignupLoginUITest@5b1ebf56]" name="verifyUI" class="testCases.T002_SignupLoginUITest"/>
-        <method signature="T002_SignupLoginUITest.verifyUI()[pri:0, instance:testCases.T002_SignupLoginUITest@63798ca7]" name="verifyUI" class="testCases.T002_SignupLoginUITest"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2025-05-23T12:56:49 MST" name="FirefoxTest" finished-at="2025-05-23T12:57:52 MST" duration-ms="63498">
+    <test started-at="2025-05-23T16:56:56 MST" name="BaseTest" finished-at="2025-05-23T16:57:50 MST" duration-ms="54276">
       <class name="testCases.T003_SignupUITest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.T003_SignupUITest@4612b856]" started-at="2025-05-23T12:57:40 MST" name="setup" finished-at="2025-05-23T12:57:45 MST" duration-ms="4681" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.T003_SignupUITest@294a6b8e]" started-at="2025-05-23T16:57:43 MST" name="setup" finished-at="2025-05-23T16:57:46 MST" duration-ms="2830" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[linux]]>
+                <![CDATA[windows]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifySignupPageUI()[pri:0, instance:testCases.T003_SignupUITest@4612b856]" started-at="2025-05-23T12:57:45 MST" name="verifySignupPageUI" finished-at="2025-05-23T12:57:49 MST" duration-ms="4555" status="PASS">
+        <test-method signature="verifySignupPageUI()[pri:0, instance:testCases.T003_SignupUITest@294a6b8e]" started-at="2025-05-23T16:57:46 MST" name="verifySignupPageUI" finished-at="2025-05-23T16:57:50 MST" duration-ms="3774" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignupPageUI -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.T003_SignupUITest@4612b856]" started-at="2025-05-23T12:57:49 MST" name="tearDown" finished-at="2025-05-23T12:57:52 MST" duration-ms="3201" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.T003_SignupUITest@294a6b8e]" started-at="2025-05-23T16:57:50 MST" name="tearDown" finished-at="2025-05-23T16:57:50 MST" duration-ms="247" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.T003_SignupUITest -->
       <class name="testCases.T002_SignupLoginUITest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.T002_SignupLoginUITest@63798ca7]" started-at="2025-05-23T12:57:27 MST" name="setup" finished-at="2025-05-23T12:57:33 MST" duration-ms="5810" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.T002_SignupLoginUITest@5b1ebf56]" started-at="2025-05-23T16:57:37 MST" name="setup" finished-at="2025-05-23T16:57:39 MST" duration-ms="2883" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[linux]]>
+                <![CDATA[windows]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyUI()[pri:0, instance:testCases.T002_SignupLoginUITest@63798ca7]" started-at="2025-05-23T12:57:33 MST" name="verifyUI" finished-at="2025-05-23T12:57:37 MST" duration-ms="4237" status="PASS">
+        <test-method signature="verifyUI()[pri:0, instance:testCases.T002_SignupLoginUITest@5b1ebf56]" started-at="2025-05-23T16:57:39 MST" name="verifyUI" finished-at="2025-05-23T16:57:43 MST" duration-ms="3249" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUI -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.T002_SignupLoginUITest@63798ca7]" started-at="2025-05-23T12:57:37 MST" name="tearDown" finished-at="2025-05-23T12:57:40 MST" duration-ms="3107" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.T002_SignupLoginUITest@5b1ebf56]" started-at="2025-05-23T16:57:43 MST" name="tearDown" finished-at="2025-05-23T16:57:43 MST" duration-ms="339" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.T002_SignupLoginUITest -->
       <class name="testCases.T001_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.T001_LoginTest@22bac7bc]" started-at="2025-05-23T12:56:49 MST" name="setup" finished-at="2025-05-23T12:57:08 MST" duration-ms="19435" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.T001_LoginTest@6995bf68]" started-at="2025-05-23T16:56:56 MST" name="setup" finished-at="2025-05-23T16:57:00 MST" duration-ms="3840" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[linux]]>
+                <![CDATA[windows]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLogin1()[pri:0, instance:testCases.T001_LoginTest@22bac7bc]" started-at="2025-05-23T12:57:08 MST" name="verifyLogin1" finished-at="2025-05-23T12:57:10 MST" duration-ms="1531" status="PASS">
+        <test-method signature="verifyLogin1()[pri:0, instance:testCases.T001_LoginTest@6995bf68]" started-at="2025-05-23T16:57:00 MST" name="verifyLogin1" finished-at="2025-05-23T16:57:07 MST" duration-ms="7758" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin1 -->
-        <test-method signature="verifyLogin2()[pri:0, instance:testCases.T001_LoginTest@22bac7bc]" started-at="2025-05-23T12:57:10 MST" name="verifyLogin2" finished-at="2025-05-23T12:57:27 MST" duration-ms="16850" status="PASS">
+        <test-method signature="verifyLogin2()[pri:0, instance:testCases.T001_LoginTest@6995bf68]" started-at="2025-05-23T16:57:07 MST" name="verifyLogin2" finished-at="2025-05-23T16:57:24 MST" duration-ms="16513" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at testCases.T001_LoginTest.verifyLogin2(T001_LoginTest.java:63)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
+            <line>
+              <![CDATA[Login failed - Invalid password]]>
+            </line>
           </reporter-output>
         </test-method> <!-- verifyLogin2 -->
-        <test-method signature="verifyLogin3()[pri:0, instance:testCases.T001_LoginTest@22bac7bc]" started-at="2025-05-23T12:57:27 MST" name="verifyLogin3" finished-at="2025-05-23T12:57:27 MST" duration-ms="37" status="PASS">
+        <test-method signature="verifyLogin3()[pri:0, instance:testCases.T001_LoginTest@6995bf68]" started-at="2025-05-23T16:57:24 MST" name="verifyLogin3" finished-at="2025-05-23T16:57:36 MST" duration-ms="12220" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at testCases.T001_LoginTest.verifyLogin3(T001_LoginTest.java:94)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
+            <line>
+              <![CDATA[Login failed - Invalid Email]]>
+            </line>
           </reporter-output>
         </test-method> <!-- verifyLogin3 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.T001_LoginTest@22bac7bc]" started-at="2025-05-23T12:57:27 MST" name="tearDown" finished-at="2025-05-23T12:57:27 MST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.T001_LoginTest@6995bf68]" started-at="2025-05-23T16:57:36 MST" name="tearDown" finished-at="2025-05-23T16:57:37 MST" duration-ms="518" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.T001_LoginTest -->
-    </test> <!-- FirefoxTest -->
-    <test started-at="2025-05-23T12:56:49 MST" name="EdgeTest" finished-at="2025-05-23T13:01:49 MST" duration-ms="300268">
-      <class name="testCases.T003_SignupUITest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.T003_SignupUITest@294a6b8e]" started-at="2025-05-23T13:00:27 MST" name="setup" finished-at="2025-05-23T13:01:49 MST" duration-ms="82249" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[linux]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'PSCHANDI-SURFAC', ip: '192.168.1.19'
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, platformName: linux}]}]
-Capabilities {browserName: MicrosoftEdge, platformName: linux}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'PSCHANDI-SURFAC', ip: '192.168.1.19'
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, platformName: linux}]}]
-Capabilities {browserName: MicrosoftEdge, platformName: linux}
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
-at testCases.BaseClass.setup(BaseClass.java:79)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.io.UncheckedIOException: java.io.IOException: HTTP/1.1 header parser received no bytes
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:439)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355)
-at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-... 22 more
-Caused by: java.io.IOException: HTTP/1.1 header parser received no bytes
-at java.net.http/jdk.internal.net.http.common.Utils.wrapWithExtraDetail(Utils.java:388)
-at java.net.http/jdk.internal.net.http.Http1Response$HeadersReader.onReadError(Http1Response.java:590)
-at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.checkForErrors(Http1AsyncReceiver.java:302)
-at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.flush(Http1AsyncReceiver.java:268)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
-... 3 more
-Caused by: java.io.EOFException: EOF reached while reading
-at java.net.http/jdk.internal.net.http.Http1AsyncReceiver$Http1TubeSubscriber.onComplete(Http1AsyncReceiver.java:601)
-at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadSubscription.signalCompletion(SocketTube.java:648)
-at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:853)
-at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
-at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
-at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
-at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
-at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1469)
-at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1414)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1414)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifySignupPageUI()[pri:0, instance:testCases.T003_SignupUITest@294a6b8e]" started-at="2025-05-23T13:01:49 MST" name="verifySignupPageUI" finished-at="2025-05-23T13:01:49 MST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'PSCHANDI-SURFAC', ip: '192.168.1.19'
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, platformName: linux}]}]
-Capabilities {browserName: MicrosoftEdge, platformName: linux}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'PSCHANDI-SURFAC', ip: '192.168.1.19'
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, platformName: linux}]}]
-Capabilities {browserName: MicrosoftEdge, platformName: linux}
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
-at testCases.BaseClass.setup(BaseClass.java:79)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.io.UncheckedIOException: java.io.IOException: HTTP/1.1 header parser received no bytes
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:439)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355)
-at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-... 22 more
-Caused by: java.io.IOException: HTTP/1.1 header parser received no bytes
-at java.net.http/jdk.internal.net.http.common.Utils.wrapWithExtraDetail(Utils.java:388)
-at java.net.http/jdk.internal.net.http.Http1Response$HeadersReader.onReadError(Http1Response.java:590)
-at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.checkForErrors(Http1AsyncReceiver.java:302)
-at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.flush(Http1AsyncReceiver.java:268)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
-... 3 more
-Caused by: java.io.EOFException: EOF reached while reading
-at java.net.http/jdk.internal.net.http.Http1AsyncReceiver$Http1TubeSubscriber.onComplete(Http1AsyncReceiver.java:601)
-at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadSubscription.signalCompletion(SocketTube.java:648)
-at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:853)
-at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
-at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
-at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
-at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
-at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1469)
-at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1414)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1414)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySignupPageUI -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.T003_SignupUITest@294a6b8e]" started-at="2025-05-23T13:01:49 MST" name="tearDown" finished-at="2025-05-23T13:01:49 MST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.T003_SignupUITest -->
-      <class name="testCases.T002_SignupLoginUITest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.T002_SignupLoginUITest@5b1ebf56]" started-at="2025-05-23T12:57:27 MST" name="setup" finished-at="2025-05-23T13:00:27 MST" duration-ms="180074" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[linux]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'PSCHANDI-SURFAC', ip: '192.168.1.19']]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'PSCHANDI-SURFAC', ip: '192.168.1.19'
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
-at testCases.BaseClass.setup(BaseClass.java:79)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:399)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355)
-at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-... 22 more
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:382)
-... 32 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyUI()[pri:0, instance:testCases.T002_SignupLoginUITest@5b1ebf56]" started-at="2025-05-23T13:00:27 MST" name="verifyUI" finished-at="2025-05-23T13:00:27 MST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'PSCHANDI-SURFAC', ip: '192.168.1.19']]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'PSCHANDI-SURFAC', ip: '192.168.1.19'
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
-at testCases.BaseClass.setup(BaseClass.java:79)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:399)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355)
-at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-... 22 more
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:382)
-... 32 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUI -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.T002_SignupLoginUITest@5b1ebf56]" started-at="2025-05-23T13:00:27 MST" name="tearDown" finished-at="2025-05-23T13:00:27 MST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.T002_SignupLoginUITest -->
-      <class name="testCases.T001_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.T001_LoginTest@6995bf68]" started-at="2025-05-23T12:56:49 MST" name="setup" finished-at="2025-05-23T12:56:55 MST" duration-ms="5899" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[linux]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyLogin1()[pri:0, instance:testCases.T001_LoginTest@6995bf68]" started-at="2025-05-23T12:56:55 MST" name="verifyLogin1" finished-at="2025-05-23T12:57:08 MST" duration-ms="13235" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLogin1 -->
-        <test-method signature="verifyLogin2()[pri:0, instance:testCases.T001_LoginTest@6995bf68]" started-at="2025-05-23T12:57:08 MST" name="verifyLogin2" finished-at="2025-05-23T12:57:12 MST" duration-ms="3810" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLogin2 -->
-        <test-method signature="verifyLogin3()[pri:0, instance:testCases.T001_LoginTest@6995bf68]" started-at="2025-05-23T12:57:12 MST" name="verifyLogin3" finished-at="2025-05-23T12:57:16 MST" duration-ms="3713" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLogin3 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.T001_LoginTest@6995bf68]" started-at="2025-05-23T12:57:16 MST" name="tearDown" finished-at="2025-05-23T12:57:27 MST" duration-ms="11173" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.T001_LoginTest -->
-    </test> <!-- EdgeTest -->
+    </test> <!-- BaseTest -->
   </suite> <!-- Suite -->
 </testng-results>
